@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans";
+    font-style: normal;
+}
+
+/* Banner and Hero section */
+header {
+    background-image: url('./images/banner/banner1.png');
+    width: 1600px;
+    height: 808px;
+}
+
+.hero-section {
+    text-align: right;
+    padding: 216px 230px 364px 845px;
+
+    color: #151414;
+}
+
+.hero-section h2 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    padding-bottom: 24px;
+    color: #151414;
+}
+
+.hero-section p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 32px;
+    padding-left: 21px;
+    text-align: right;
+}
+
+.contactUs-btn {
+    height: 64px;
+    border: none;
+    padding: 21px 25px 20px 26px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    line-height: 23px;
+    background: #F15B22;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Failure of previous year Section */
+main {
+    background-color: #ffffff;
+    padding: 131px 322px 130px 206px;
+}
+
+.failures-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.failures-description {
+    width: 416px;
+    height: 400px;
+    margin-left: 87px;
+    margin-top: 80px;
+}
+
+.main-section-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+
+}
+
+.failures-description p {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+
+}
+
+.main-section-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+
+    /* Dark 01 */
+
+    color: #151414;
+}
+
+.text-success {
+    color: #16D887;
+}
+
+.failures-description p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+
+}
+
+/*  My Plans section */
+.my-plans {
+    margin-top: 130px;
+    margin-bottom: 130px;
+    width: 1141px;
+    height: 299.96px;
+}
+
+.my-plans h3 {
+    text-align: center;
+    margin-bottom: 55.7px;
+}
+
+.plans-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.list-item {
+    text-align: center;
+}
+
+.list-item h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #151414;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
+.list-item p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+
+}
+
+/* image and gradient color combine section */
+.gradient-section {
+    position: relative;
+    background-image: url("/images/watch.png");
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.gradient-section::before {
+    content: " ";
+    position: absolute;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+    z-index: 1;
+}
+
+.gradient-content {
+    padding: 59px 617px 59px 64px;
+    z-index: 2;
+    position: absolute;
+}
+
+.gradient-content h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
+}
+
+.btn-primary {
+    height: 64px;
+    width: 160px;
+    border: none;
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    line-height: 23px;
+    background: #FFFFFF;
+    color: #F15B22;
+    cursor: pointer;
+}
+
+/*  Footer section */
+footer {
+    width: 1600px;
+    height: 577px;
+    padding: 130px 230px;
+    background: #151414;
+    display: flex;
+
+}
+
+.footer-heading {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+
+}
+
+.footer-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+
+}
+
+.footer-left-content {
+    width: 485px;
+    height: 317px;
+}
+
+.contact-option {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 16px 0;
+    color: #FFFFFF;
+
+}
+
+.media-icon {
+    padding-top: 16px;
+}
+
+.media-icon img {
+    margin-right: 17px;
+}
+
+.footer-semiheading {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer-right-content {
+    width: 325px;
+    height: 204px;
+    margin-left: 331px;
+}
+
+.email-input-field {
+    width: 325px;
+    height: 64px;
+    margin-top: 31px;
+    margin-bottom: 16px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding-left: 10px;
+    border-radius: 8px;
+}
